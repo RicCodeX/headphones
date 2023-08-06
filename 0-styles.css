@@ -50,3 +50,36 @@ header {
     height: 100vh; /* i still gotta find something better here*/
     background-position: center;
 }
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    height: 32px;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+img {
+    height: 32px;
+    width: 161px;
+}
+
+header .section-one .nav .nav-body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* width: 255px; */
+    margin: 0px 30px;
+    padding: 0 50px;
+}
+
+header .section-one .nav .nav-body a {
+    text-decoration: none;
+    color: white;
+}
+
+header .section-one .nav .nav-body a:hover {
+    color: #FF6565;
+}
+
