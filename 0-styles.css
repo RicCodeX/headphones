@@ -71,7 +71,7 @@ header .section-one .nav .nav-body {
     gap: 20px;
     /* width: 255px; */
     margin: 0px 30px;
-    padding: 0 50px;
+    padding: 7px 50px;
 }
 
 header .section-one .nav .nav-body a {
@@ -83,3 +83,17 @@ header .section-one .nav .nav-body a:hover {
     color: #FF6565;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 170px 50px auto 50px;
+}
+
+.button {
+    background-color: #FF6565;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+}
