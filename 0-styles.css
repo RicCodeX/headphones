@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .section-one {
@@ -39,6 +40,30 @@ body .section-one .section-head ul li a:hover {
 }
 
 body .section-body {
+    display: flex;
+    flex-direction: column;
     margin-top: 320px;
+    color: white;
+    align-items: center;
+    text-align: center;
 }
 
+body .section-body button {
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    border: 0;
+    background-color: #FF6565;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+body .section-body button:hover {
+    background-color: #000000;
+    box-shadow: #ffffff;
+}
+
+body .section-body p {
+    margin: auto auto;
+}
