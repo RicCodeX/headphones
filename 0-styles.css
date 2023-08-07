@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .section-one {
     background-image: url(images/headphones_hero_1.jpg);
     background-position: center;
@@ -27,12 +32,7 @@ body .section-one .section-head img {
 body .section-one .section-head ul {
     display: flex;
     align-items: center;
-    gap: 41px;
-}
-
-body .section-one .section-head ul li a {
-    text-decoration: none;
-    color: white;
+    gap: 20px;
 }
 
 body .section-one .section-head ul li a:hover {
@@ -42,10 +42,11 @@ body .section-one .section-head ul li a:hover {
 body .section-body {
     display: flex;
     flex-direction: column;
-    margin-top: 320px;
+    margin-top: 280px;
     color: white;
     align-items: center;
     text-align: center;
+    font-family: sans-serif;
 }
 
 body .section-body button {
@@ -60,10 +61,9 @@ body .section-body button {
 }
 
 body .section-body button:hover {
-    background-color: #000000;
-    box-shadow: #ffffff;
+    background-color: #e05a5a;
 }
 
 body .section-body p {
-    margin: auto auto;
+    width: 450px;
 }
