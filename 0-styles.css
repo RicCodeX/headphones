@@ -37,3 +37,8 @@ body .section-one .section-head ul li a {
 body .section-one .section-head ul li a:hover {
     color: #FF6565;
 }
+
+body .section-body {
+    margin-top: 320px;
+}
+
