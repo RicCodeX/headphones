@@ -61,9 +61,32 @@ body .section-body button {
 }
 
 body .section-body button:hover {
-    background-color: #e05a5a;
+    opacity: 0.9
 }
 
 body .section-body p {
     width: 450px;
+}
+
+/* for a responsive nav bar */
+@media all and (max-width: 480px) {
+    body .section-one .section-head {
+        display: block;
+    }
+
+    body .section-one .section-head ul {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    body .section-one .section-head ul li {
+        margin: 20px auto;
+    }
+
+    img {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
 }
