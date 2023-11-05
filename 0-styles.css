@@ -1,92 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .section-one {
-    background-image: url(images/headphones_hero_1.jpg);
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    height: 800px;
-    background-size: cover;
+  background-image: url(images/headphones_hero_1.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  height: 800px;
+  background-size: cover;
 }
 
 body .section-one .section-head {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 body .section-one .section-head img {
-    height: 32px;
+  height: 32px;
 }
 
 body .section-one .section-head ul {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 body .section-one .section-head ul li a:hover {
-    color: #FF6565;
+  color: #ff6565;
 }
 
 body .section-body {
-    display: flex;
-    flex-direction: column;
-    margin-top: 280px;
-    color: white;
-    align-items: center;
-    text-align: center;
-    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 280px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 body .section-body button {
-    height: 44px;
-    width: 162px;
-    border-radius: 22px;
-    border: 0;
-    background-color: #FF6565;
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 65px;
+  height: 44px;
+  width: 162px;
+  border-radius: 22px;
+  border: 0;
+  background-color: #ff6565;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 65px;
 }
 
 body .section-body button:hover {
-    opacity: 0.9
+  opacity: 0.9;
 }
 
 body .section-body p {
-    width: 450px;
+  width: 450px;
 }
 
 /* for a responsive nav bar */
 @media all and (max-width: 480px) {
-    body .section-one .section-head {
-        display: block;
-    }
+  body .section-one .section-head {
+    display: block;
+  }
 
-    body .section-one .section-head ul {
-        display: block;
-        text-align: center;
-        margin: 20px auto;
-    }
+  body .section-one .section-head ul {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
 
-    body .section-one .section-head ul li {
-        margin: 20px auto;
-    }
+  body .section-one .section-head ul li {
+    margin: 20px auto;
+  }
 
-    img {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
+  img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
 }
